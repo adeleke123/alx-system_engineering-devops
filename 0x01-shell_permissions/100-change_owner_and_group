@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R betty:school ./
+chown vincent:staff ./
