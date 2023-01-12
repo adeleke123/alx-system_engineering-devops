@@ -1,0 +1,5 @@
+# Client configuration file
+Host *
+  IdentityFile ~/.ssh/school
+  IdentitiesOnly yes
+  PasswordAuthentication no
