@@ -112,7 +112,7 @@ Display Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY if less 
 scp must transfer the file to the user home directory ~/
 Strict host key checking must be disabled when using scp
 Example:
-
+```
 sylvain@ubuntu$ ./0-transfer_file
 Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY
 sylvain@ubuntu$
@@ -126,6 +126,7 @@ sylvain@ubuntu$ ssh ubuntu@8.8.8.8 -i /vagrant/private_key 'ls ~/'
 afile
 some_page.html
 sylvain@ubuntu$
+```
 In this example, I:
 
 remotely execute the ls ~/ command via ssh to see what ~/ contains
@@ -158,14 +159,15 @@ When querying Nginx at its root / with a GET request (requesting a page) using c
 As an answer file, write a Bash script that configures a new Ubuntu machine to respect above requirements (this script will be run on the server itself)
 You can’t use systemctl for restarting nginx
 Server terminal:
-
+```
 root@sy-web-01$ ./1-install_nginx_web_server > /dev/null 2>&1
 root@sy-web-01$ 
 root@sy-web-01$ curl localhost
 Hello World!
 root@sy-web-01$ 
+```
 Local terminal:
-
+```
 sylvain@ubuntu$ curl 34.198.248.145/
 Hello World!
 sylvain@ubuntu$ curl -sI 34.198.248.145/
@@ -180,6 +182,7 @@ ETag: "58abea7c-1e"
 Accept-Ranges: bytes
 
 sylvain@ubuntu$
+```
 In this example 34.198.248.145 is the IP of my web-01 server. If you want to query the Nginx that is locally installed on your server, you can use curl 127.0.0.1.
 
 If things are not going as expected, make sure to check out Nginx logs, they can be found in /var/log/.
@@ -204,7 +207,7 @@ provide the domain name only (example: foobar.tech), no subdomain (example: www.
 configure your DNS records with an A entry so that your root domain points to your web-01 IP address Warning: the propagation of your records can take time (~1-2 hours)
 go to your profile and enter your domain in the Project website url field
 Example:
-
+```
 sylvain@ubuntu$ cat 2-setup_a_domain_name
 myschool.tech
 sylvain@ubuntu$
@@ -230,6 +233,7 @@ myschool.tech.  7199    IN  A   184.72.193.201
 ;; MSG SIZE  rcvd: 65
 
 sylvain@ubuntu$
+```
 When your domain name is setup, please verify the Registrar here: https://whois.whoisxmlapi.com/ and you must see in the JSON response: "registrarName": "Dotserve Inc"
 
 Repo:
@@ -251,7 +255,7 @@ The redirection must be a “301 Moved Permanently”
 You answer file should be a Bash script containing commands to automatically configure a Ubuntu machine to respect above requirements
 Using what you did with 1-install_nginx_web_server, write 3-redirection so that it configures a brand new Ubuntu machine to the requirements asked in this task
 Example:
-
+```
 sylvain@ubuntu$ curl -sI 34.198.248.145/redirect_me/
 HTTP/1.1 301 Moved Permanently
 Server: nginx/1.4.6 (Ubuntu)
@@ -262,6 +266,7 @@ Connection: keep-alive
 Location: https://www.youtube.com/watch?v=QH2-TGUlwu4
 
 sylvain@ubuntu$
+```
 Repo:
 
 GitHub repository: alx-system_engineering-devops
@@ -278,7 +283,7 @@ The page must return an HTTP 404 error code
 The page must contain the string Ceci n'est pas une page
 Using what you did with 3-redirection, write 4-not_found_page_404 so that it configures a brand new Ubuntu machine to the requirements asked in this task
 Example:
-
+```
 sylvain@ubuntu$ curl -sI 34.198.248.145/xyz
 HTTP/1.1 404 Not Found
 Server: nginx/1.4.6 (Ubuntu)
@@ -292,6 +297,7 @@ sylvain@ubuntu$ curl 34.198.248.145/xyzfoo
 Ceci n'est pas une page
 
 sylvain@ubuntu$
+```
 Repo:
 
 GitHub repository: alx-system_engineering-devops
