@@ -274,7 +274,7 @@ Make sure to install HAproxy 1.5 or higher, SSL termination is not available bef
 
 Example:
 
-
+```
 
 sylvain@ubuntu$ curl -sI https://www.holberton.online
 
@@ -303,6 +303,7 @@ sylvain@ubuntu$ curl https://www.holberton.online
 Holberton School for the win!
 
 sylvain@ubuntu$
+```
 
 Repo:
 
