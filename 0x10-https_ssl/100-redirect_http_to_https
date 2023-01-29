@@ -32,14 +32,9 @@ defaults
 	errorfile 502 /etc/haproxy/errors/502.http
 	errorfile 503 /etc/haproxy/errors/503.http
 	errorfile 504 /etc/haproxy/errors/504.http
-
-frontend myfrontend
-	bind *:80
-	bind *:443 ssl crt /etc/haproxy/certs/www.uniqueel.tech.pem
-	http-request redirect scheme https code 301 if { hdr(Host) -i www.badeleke.tech } !{ ssl_fc }
-	default_backend myservers
-
-backend myservers
+listen http-in
+	bind :80
 	balance roundrobin
-	server web-01 35.153.193.4:80 check
-	server web-02 100.25.138.224:80 check	
+	server 93296-web-01 35.153.193.4:80 check
+	server 93296-web-02 100.25.138.224:80 check
+
