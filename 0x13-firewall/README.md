@@ -1,4 +1,4 @@
-0x13. Firewall
+0x13. Firewall.
 ==============
 
  By: Sylvain Kalache, co-founder at Holberton School
