@@ -1,4 +1,4 @@
-0x13. Firewall.
+0x13. Firewall
 ==============
 
  By: Sylvain Kalache, co-founder at Holberton School
@@ -161,3 +161,21 @@ I use curl to query `web-01.holberton.online`, and since my firewall is forwardi
 -  File: `100-port_forwarding`
   
 Copyright © 2023 ALX, All rights reserved.
+
+
+
+### 100-port_forwarding extras
+on web_01
+-  sudo apt-get install haproxy
+-  sudo vi /etc/haproxy/haproxy.cfg
+//Inside the haproxy.cfg add the next listen web to the last line in your code.
+```
+listen web
+   bind *:8080
+   mode http
+   option http-server-close
+   server s1 127.0.0.1:80
+```
+
+-  sudo service haproxy restart
+-  sudo ufw allow 8080/tcp
