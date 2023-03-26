@@ -2,7 +2,7 @@
 
 This repository contains my activities in the System Engineering DevOps Projects, which were completed as part of the Full Stack Software Engineer program organized by ALX Africa. I was part of the cohort08, and the program ran from June 2022 to July 2023.
 
-The projects were implemented using various programming languages, including shell, Python, Puppet, C, and Ruby. By completing these projects, I have gained valuable experience and knowledge in system engineering and DevOps.
+The projects were implemented using various programming languages, including shell, Python, Puppet, C, and Ruby. By completing these projects, I have gained valuable experience and knowledge in System Engineering and DevOps.
 
 
 ## Table of contents
