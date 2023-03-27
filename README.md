@@ -1,6 +1,6 @@
 # System Engineering DevOps
 
-This repository contains my activities in the System Engineering DevOps Projects, which were completed as part of the Full Stack Software Engineer program organized by ALX Africa. I was part of the cohort08, and the program ran from June 2022 to July 2023.
+This repository contains my activities in the System Engineering DevOps Projects, which were completed as part of the Full Stack Software Engineering programme organized by ALX Africa. I was part of the cohort08, and the program ran from June 2022 to July 2023.
 
 The projects were implemented using various programming languages, including shell, Python, Puppet, C, and Ruby. By completing these projects, I have gained valuable experience and knowledge in System Engineering and DevOps.
 
@@ -32,8 +32,8 @@ The projects were implemented using various programming languages, including she
 * [0x16. api_advanced](https://github.com/adeleke123/alx-system_engineering-devops/tree/master/0x16-api_advanced)
 * [0x17. web_stack_debugging_3](https://github.com/adeleke123/alx-system_engineering-devops/tree/master/0x17-web_stack_debugging_3)
 * [0x18. webstack_monitoring](https://github.com/adeleke123/alx-system_engineering-devops/tree/master/0x18-webstack_monitoring)
-0x19-postmortem(https://github.com/adeleke123/alx-system_engineering-devops/tree/master/0x06-regular_expressions)
-0x1A-application_server(https://github.com/adeleke123/alx-system_engineering-devops/tree/master/0x06-regular_expressions)
-0x1B-web_stack_debugging_4(https://github.com/adeleke123/alx-system_engineering-devops/tree/master/0x06-regular_expressions)
-attack_is_the_best_defense(https://github.com/adeleke123/alx-system_engineering-devops/tree/master/0x06-regular_expressions)
-command_line_for_the_win(https://github.com/adeleke123/alx-system_engineering-devops/tree/master/0x06-regular_expressions)
+* [0x19-postmortem](https://github.com/adeleke123/alx-system_engineering-devops/tree/master/0x19-postmortem)
+* [0x1A. application_server](https://github.com/adeleke123/alx-system_engineering-devops/tree/master/0x1A-application_server)
+* [0x1B. web_stack_debugging_4](https://github.com/adeleke123/alx-system_engineering-devops/tree/master/0x1B-web_stack_debugging_4)
+* [attack_is_the_best_defense](https://github.com/adeleke123/alx-system_engineering-devops/tree/master/attack_is_the_best_defense)
+* [command_line_for_the_win](https://github.com/adeleke123/alx-system_engineering-devops/tree/master/command_line_for_the_win)
