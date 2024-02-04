@@ -3,16 +3,7 @@
 
 -   By Sylvain Kalache
 -   Weight: 1
--   Ongoing second chance project - started 01-13-2022, must end by 01-18-2022 (in 2 days) - you're done with 0% of tasks.
--   QA review fully automated.
 
-#### In a nutshell...
-
--   **Auto QA review:** 0.0/83 mandatory & 0.0/30 optional
--   **Altogether:**  **0.0%**
-    -   Mandatory: 0.0%
-    -   Optional: 0.0%
-    -   Calculation:  0.0% + (0.0% * 0.0%)  == **0.0%**
 
 About Bash projects
 -------------------
