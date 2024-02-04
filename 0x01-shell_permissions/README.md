@@ -97,7 +97,7 @@ Tasks
 
 ### 0\. My name is Betty
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -123,7 +123,7 @@ julien@ubuntu:/tmp/h$
 
 ### 1\. Who am I
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -146,7 +146,7 @@ julien@ubuntu:/tmp/h$
 
 ### 2\. Groups
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -171,7 +171,7 @@ Note: depending on the user, you will get a different output.
 
 ### 3\. New owner
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -201,7 +201,7 @@ julien@ubuntu:/tmp/h$
 
 ### 4\. Empty!
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -217,7 +217,7 @@ Write a script that creates an empty file called `hello`.
 
 ### 5\. Execute
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -251,7 +251,7 @@ julien@ubuntu:/tmp/h$
 
 ### 6\. Multiple permissions
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -283,7 +283,7 @@ julien@ubuntu:/tmp/h$
 
 ### 7\. Everybody!
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -316,7 +316,7 @@ julien@ubuntu:/tmp/h$
 
 ### 8\. James Bond
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -352,7 +352,7 @@ julien@ubuntu:/tmp/h$
 
 ### 9\. John Doe
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -376,7 +376,7 @@ Write a script that sets the mode of the file `hello` to this:
 
 ### 10\. Look in the mirror
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -413,7 +413,7 @@ Note: the mode of `olleh` will not always be 664. Make sure your script works fo
 
 ### 11\. Directories
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -449,7 +449,7 @@ julien@ubuntu:/tmp/h$
 
 ### 12\. More directories
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -486,7 +486,7 @@ julien@ubuntu:/tmp/h$
 
 ### 13\. Change group
 
-# mandatory
+#### mandatory
 
 Score: 100.00% (Checks completed: 100.00%)
 
@@ -525,7 +525,7 @@ julien@ubuntu:/tmp/h$
  
 ### 14\. Owner and group
 
-# advanced
+#### advanced
 
 
 Write a script that changes the owner to `vincent` and the group owner to `staff` for all the files and directories in the working directory.
@@ -560,7 +560,7 @@ julien@ubuntu:/tmp/h$
 
 ### 15\. Symbolic links
 
-# advanced
+#### advanced
 
 
 Write a script that changes the owner and the group owner of `_hello` to `vincent` and `staff` respectively.
@@ -592,7 +592,7 @@ julien@ubuntu:/tmp/h$
 
  ### 16\. If only
 
-# advanced
+#### advanced
 
 Write a script that changes the owner of the file `hello` to `betty` only if it is owned by the user `guillaume`.
 
@@ -622,7 +622,7 @@ julien@ubuntu:/tmp/h$
 
 ### 17\. Star Wars
 
-## advanced
+#### advanced
 
 Write a script that will play the StarWars IV episode in the terminal.
 
