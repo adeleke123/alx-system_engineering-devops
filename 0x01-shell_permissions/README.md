@@ -70,7 +70,7 @@ Requirements
 -   All your files must be executable
 
 ### Description
-  This project covers basic esercises about shell permission commands 
+  This project covers basic exercises about shell permission commands 
 
 ### Structure
    * 0-iam_betty : change user ID to betty
