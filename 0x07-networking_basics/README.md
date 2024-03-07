@@ -111,27 +111,29 @@ The highest level: layer 7 which is for application specific communication like 
 
 Keep in mind that the OSI model is a concept, it’s not even tangible. The OSI model doesn’t perform any functions in the networking process. It is a conceptual framework so we can better understand complex interactions that are happening. Most of the functionality in the OSI model exists in all communications systems.
 
-(https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/4e6a0ad87a65d7054248.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c52a532cca924f7edfa951fdb656e48f33db25266f5d32e77e2cd1b7dc13e87d)
+![image](https://github.com/adeleke123/alx-system_engineering-devops/assets/51156057/7e483b0c-1cb2-4549-8a3d-236556a657e0)
 
 
-In this project we will mainly focus on:
+
+- In this project we will mainly focus on:
    -  The Transport layer and especially TCP/UDP
    -  On the Network layer with IP and ICMP
 
 The image bellow describes more concretely how you can relate to every level.
 
-(https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/0fc96bd99faa7941b18bcae4c5f90c6acd11791d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=0541c8be2f4e1e4aa4ea4236e7b89e4b8946a6a767112d430d01a45a69cca8ee)
+![image](https://github.com/adeleke123/alx-system_engineering-devops/assets/51156057/54dd6796-2836-4cf7-ba00-124fade7366e)
 
 
 
-Questions:
 
-What is the OSI model?
+**Questions:**
+
+- What is the OSI model?
    1. Set of specifications that network hardware manufacturers must respect
    2. The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology
    3. The OSI model is a model that characterizes the communication functions of a telecommunication system with a strong regard for their underlying internal structure and technology
 
-How is the OSI model organized?
+- How is the OSI model organized?
    1. Alphabetically
    2. From the lowest to the highest level
    3. Randomly
@@ -145,22 +147,24 @@ How is the OSI model organized?
 
 ### 1\. Types of network
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/4b995d4f8078b44afa968d68a98035d2bd7e8fac.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a5f39e628b562528719c229cd4fe30d5259d8ce94f312a602f8fc573d3264e3c
+![image](https://github.com/adeleke123/alx-system_engineering-devops/assets/51156057/82ec283e-366e-4d88-99e0-03b3d578e9ad)
 
-LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
-Questions:
-What type of network a computer in local is connected to?
+- LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
+
+**Questions:**
+
+- What type of network a computer in local is connected to?
    1. Internet
    2. WAN
    3. LAN
 
-What type of network could connect an office in one building to another office in a building a few streets away?
+- What type of network could connect an office in one building to another office in a building a few streets away?
    1. Internet
    2. WAN
    3. LAN
 
-What network do you use when you browse www.google.com from your smartphone (not connected to the Wifi)?
+- What network do you use when you browse www.google.com from your smartphone (not connected to the Wifi)?
    1.Internet
    2. WAN
    3. LAN
@@ -174,15 +178,15 @@ What network do you use when you browse www.google.com from your smartphone (not
 
 ### 2\. MAC and IP address
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/1e348ba3bcbb094b02922f821ffeb3d8c5438b7b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=97af057aad0cb4591c76c2f5040ca798d3cd111dfc1b8b6594a1517e2bdce02b
+![image](https://github.com/adeleke123/alx-system_engineering-devops/assets/51156057/5332d440-89c0-42e9-8958-62e3a0e54396)
 
-Questions:
-What is a MAC address?
+**Questions:**
+- What is a MAC address?
    1. The name of a network interface
    2. The unique identifier of a network interface
    3. A network interface
 
-What is an IP address?
+- What is an IP address?
    1. Is to devices connected to a network what postal address is to houses
    2. The unique identifier of a network interface
    3. Is a number that network devices use to connect to networks
@@ -193,23 +197,23 @@ What is an IP address?
 -  File: `2-MAC_and_IP_address`
   
 
-
 ### 3\. UDP and TCP
 
-https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/3d92e3c4a470f8ecf4c73db511fcbbadaa002e1c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20221117%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221117T202448Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5df1cb2cd83eae1e3fa946761875b2632d63c88771acb6eb42266bda7bd8be98
+![image](https://github.com/adeleke123/alx-system_engineering-devops/assets/51156057/f97a7306-5edc-4472-a344-2e59439a8ed0)
 
-Let’s fill the empty parts in the drawing above.
 
-Questions:
-Which statement is correct for the TCP box:
+**Let’s fill the empty parts in the drawing above.**
+
+- Questions:
+- Which statement is correct for the TCP box:
    1. `It is a protocol that is transferring data in a slow way but surely`
    2. `It is a protocol that is transferring data in a fast way and might loss data along in the process`
 
-Which statement is correct for the UDP box:
+- Which statement is correct for the UDP box:
    1. `It is a protocol that is transferring data in a slow way but surely`
    2. `It is a protocol that is transferring data in a fast way and might loss data along in the process`
 
-Which statement is correct for the TCP worker:
+- Which statement is correct for the TCP worker:
    1. `Have you received boxes x, y, z?`
    2. `May I increase the rate at which I am sending you boxes?`
 
@@ -221,21 +225,23 @@ Which statement is correct for the TCP worker:
 
 
 ### 4\. TCP and UDP ports
-Once packets have been sent to the right network device using IP using either UDP or TCP as a mode of transportation, it needs to actually enter the network device.
 
-If we continue the comparison of a network device to your house, where IP address is like your postal address, UDP and TCP ports are like the windows and doors of your place. A TCP/UDP network device has 65535 ports. Some of them are officially reserved for a specific usage, some of them are known to be used for a specific usage (but nothing is officially declared) and the rest are free of use.
+- Once packets have been sent to the right network device using IP using either UDP or TCP as a mode of transportation, it needs to actually enter the network device.
 
-While the full list of ports should not be memorized, it is important to know the most used ports, let’s start by remembering 3 of them:
+- If we continue the comparison of a network device to your house, where IP address is like your postal address, UDP and TCP ports are like the windows and doors of your place. A TCP/UDP network device has 65535 ports. Some of them are officially reserved for a specific usage, some of them are known to be used for a specific usage (but nothing is officially declared) and the rest are free of use.
+
+- While the full list of ports should not be memorized, it is important to know the most used ports, let’s start by remembering 3 of them:
 
    -  **22** for SSH
    -  **80** for HTTP
    -  **443** for HTTPS
-Note that a specific `IP + port = socket`.
 
-Write a Bash script that displays listening ports:
+- Note that a specific [IP + port = socket](https://stackoverflow.com/questions/152457/what-is-the-difference-between-a-port-and-a-socket)
+
+- Write a Bash script that displays listening ports:
    -  That only shows listening sockets
    -  That shows the PID and name of the program to which each socket belongs
-Example:
+**Example:**
 
 ```
 sylvain@ubuntu$ sudo ./4-TCP_and_UDP_ports
@@ -276,18 +282,18 @@ sylvain@ubuntu$
 
 ## 5\. Is the host on the network
 
-[media](https://media.giphy.com/media/uDxkJAVSU7GY8/giphy.gif)
+![image](https://github.com/adeleke123/alx-system_engineering-devops/assets/51156057/14879591-c92e-4558-8f07-fcad78da9254)
 
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command `ping` uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
 Write a Bash script that pings an IP address passed as an argument.
 
-Requirements:
+- Requirements:
 
    -  Accepts a string as an argument
    -  Displays `Usage: 5-is_the_host_on_the_network {IP_ADDRESS}` if no argument passed
    -  Ping the IP 5 times
-Example:
+**Example:**
 
 ```
 sylvain@ubuntu$ ./5-is_the_host_on_the_network 8.8.8.8
