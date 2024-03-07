@@ -241,7 +241,8 @@ The image bellow describes more concretely how you can relate to every level.
 - Write a Bash script that displays listening ports:
    -  That only shows listening sockets
    -  That shows the PID and name of the program to which each socket belongs
-**Example:**
+
+- **Example:**
 
 ```
 sylvain@ubuntu$ sudo ./4-TCP_and_UDP_ports
@@ -286,7 +287,7 @@ sylvain@ubuntu$
 
 The Internet Control Message Protocol (ICMP) is a protocol in the Internet protocol suite. It is used by network devices, to check if other network devices are available on the network. The command `ping` uses ICMP to make sure that a network device remains online or to troubleshoot issues on the network.
 
-Write a Bash script that pings an IP address passed as an argument.
+- Write a Bash script that pings an IP address passed as an argument.
 
 - Requirements:
 
